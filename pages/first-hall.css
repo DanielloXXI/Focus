@@ -1,0 +1,12 @@
+@import url(../blocks/fonts/fonts.css);
+@import url('https://fonts.googleapis.com/css2?family=Bitter&display=swap');
+@import url(../blocks/container/container.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__links/header__links.css);
+@import url(../blocks/header/__link/header__link.css);
+@import url(../blocks/page/page.css);
+@import url(../blocks/header/__inner/header__inner.css);
+@import url(../blocks/header/__photo/header__photo.css);
+@import url(../blocks/header/__title/header__title.css);
+@import url(../blocks/header/__subtitle/header__subtitle.css);
