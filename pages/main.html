@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Focus</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="../images/logo.svg" type="image/x-icon">
 </head>
 
 <body class="page">
@@ -22,7 +23,7 @@
                                 Главная
                             </li>
                         </a>
-                        <a href="#" class="header__link">
+                        <a href="#halls" class="header__link">
                             <li>
                                 Наши&nbsp;залы
                             </li>
@@ -73,7 +74,7 @@
         <section class="halls">
             <div class="container container__halls">
                 <div class="halls__title-container">
-                    <h2 class="halls__title">Наши залы</h2>
+                    <h2 class="halls__title" id="halls">Наши залы</h2>
                     <img src="../images/line.svg" alt="Линия" class="halls__line">
                 </div>
                 <div class="halls__first">
@@ -143,16 +144,58 @@
             </div>
         </section>
         <section class="comments">
-            <div class="comments__line">
-                <h2 class="comments__title">Наши отзывы</h2>
-            </div>
-            <div class="comments__main">
-                <div class="comments__person">
-
+            <div class="comments__inner">
+                <div class="comments__line">
+                    <h2 class="comments__title">Наши отзывы</h2>
+                </div>
+                <div class="comments__main">
+                    <div class="comments__person">
+                        <img src="../images/Otziv.jpg" alt="Девушка" class="comments__avatar">
+                        <h3 class="comments__subtitle">Ksusha Repina</h3>
+                        <img src="../images/line_otzivi.svg" alt="Линия" class="comments__underline">
+                    </div>
+                    <div class="comments__text">
+                        <p class="comments__paragraph">Хорошая студия! Мне все понравилось, особенно интерьер, он
+                            смотрится
+                            нестандартно и неизбито. Ребята в студии располагают к себе, ненавязчиво дают советы, как и
+                            где
+                            лучше стать. Спасибо вам за положительные эмоции и созданную вами красоту!</p>
+                        <a href="#" class="comments__link">Ещё отзывы...</a>
+                    </div>
+                </div>
+                <div class="comments__buttons">
+                    <button type="button" class="comments__button"></button>
+                    <button type="button" class="comments__button"></button>
+                    <button type="button" class="comments__button"></button>
+                </div>
+                <div class="comments__line comments__bottom-line">
                 </div>
             </div>
         </section>
     </main>
+    <footer class="footer">
+        <iframe
+            src="https://yandex.ru/map-widget/v1/?um=constructor%3A9d87b67fd528167ae841472423628b20cd7c6cca0d576c83e2faf972f8437615&amp;source=constructor"
+            width="100%" height="680" frameborder="0"></iframe>
+        <div class="footer__contacts">
+            <h2 class="footer__contacts-title">Контакты</h2>
+            <p class="footer__contacts-paragraph">+7999999999
+                mailmailmail@mail.ru
+                Мы работаем с 8.00 до 22.00
+                г. Архангельск , улица Папанина 4</p>
+            <img src="../images/vk_icon.svg" alt="Иконка вк" class="footer__icon">
+        </div>
+        <div class="footer__line">
+            <div class="container container__footer">
+                <div class="footer__inner">
+                    <h3 class="footer__date">© Focus 2023</h3>
+                    <p class="footer__text">Политика конфиденциальности</p>
+                    <p class="footer__text">Пользовательское соглашение</p>
+                </div>
+                <a href="#" class="footer__link">Вверх ^</a>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>

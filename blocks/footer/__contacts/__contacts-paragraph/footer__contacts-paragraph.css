@@ -1,0 +1,10 @@
+.footer__contacts-paragraph {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 150%;
+    color: #000000;
+    max-width: 289px;
+    margin: 35px 0 0 64px;
+}

@@ -1,0 +1,11 @@
+.footer__link {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    color: #FFFFFF;
+    padding: 0;
+    margin: 105px 0 0 0;
+    text-decoration: none;
+}

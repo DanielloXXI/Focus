@@ -1,0 +1,8 @@
+.comments__button {
+    width: 28px;
+    height: 28px;
+    background-color: rgba(255, 255, 255, 0.4);
+    border: 6px solid #1A1B23;
+    border-radius: 100%;
+    cursor: pointer;
+}
