@@ -1,0 +1,9 @@
+.contacts__social-icon {
+    width: 68px;
+    height: 68px;
+    margin: 10px 0 0 106px;
+}
+
+.contacts__social-icon:last-child {
+    margin: 10px 0 0 27px;
+}

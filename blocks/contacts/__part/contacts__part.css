@@ -1,0 +1,8 @@
+.contacts__part {
+    display: flex;
+    margin: 68px 0 43px 0;
+}
+
+.contacts__part:last-child {
+    margin: 0 0 75px 0;
+}
