@@ -1,5 +1,7 @@
 @import url(../../blocks/fonts/fonts.css);
 @import url('https://fonts.googleapis.com/css2?family=Bitter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 @import url(../../blocks/container/container.css);
 @import url(../../blocks/header/__logo/header__logo.css);
 @import url(../../blocks/header/header.css);
@@ -8,6 +10,20 @@
 @import url(../../blocks/page/page.css);
 @import url(../../blocks/header/__inner/header__inner.css);
 @import url(../../blocks/halls/__button/__button-arrow/halls__button-arrow.css);
+@import url(../../blocks/halls/__title/halls__title.css);
+@import url(../../blocks/halls/__title/__title-container/halls__title-container.css);
+@import url(../../blocks/footer/__contacts/footer__contacts.css);
+@import url(../../blocks/footer/footer.css);
+@import url(../../blocks/footer/__contacts/__contacts-title/footer__contacts-title.css);
+@import url(../../blocks/footer/__contacts/__contacts-paragraph/footer__contacts-paragraph.css);
+@import url(../../blocks/footer/__icon/footer__icon.css);
+@import url(../../blocks/footer/__line/footer__line.css);
+@import url(../../blocks/footer/__date/footer__date.css);
+@import url(../../blocks/footer/__text/footer__text.css);
+@import url(../../blocks/footer/__link/footer__link.css);
+@import url(../../blocks/footer/__inner/footer__inner.css);
+@import url(../../blocks/container/__footer/container__footer.css);
+
 
 *{
     box-sizing: border-box;
@@ -80,7 +96,7 @@ header.header{
 
 
 
-.first-hall__gallery{
+.first-hall__gallery-inner{
     display: grid;
     width: 100%;
     grid-template-rows: 533px 533px;
@@ -94,6 +110,163 @@ header.header{
     height: 533px;
     border: 0px;
 }
+.halls__title-container {
+    margin: 20px 0 70px 0;
+}
 
 
+/* .label {} */
+.checkbox{
+    display: none;
+}
+.checkbox__fake{
+    display: inline-block;
+    width: 27px;
+    height: 27px;
+    border: 3px solid #1A1B23;
+    border-radius: 7px;
+    position: relative;
+    margin: 6px 0 0 10px ;
+}
+.checkbox__fake::before{
+    position: absolute;
+    content: url(../../images/check.png);
+    left: 1px;
+    top: 2px;
+    opacity: 0;
+    transition: .2s;
+}
+.checkbox:checked + .checkbox__fake::before{
+    opacity: 1;
+}
+.checkbox__text{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+}
+.checkbox__label{
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.form__video{
+    margin-left: 20px;
+}
+.form__video p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 200;
+    font-size: 30px;
+}
+.form__video p:first-child{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+}
+.form__video span{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+}
+.form__video img{
+    padding-right: 13px;
+}
+.form__video p{
+    padding: 0;
+}
+.form__typeofshooting{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+p{
+    margin: 0;
+    margin-top: 14px;
+}
 
+.form__equipment{
+    display: flex;
+    flex-direction: column;
+    padding-left: 36%;
+    width: 70%;
+}
+.form__equipment p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+}
+.form__equipment img{
+    padding-right: 13px;
+}
+.form__equipment p:first-child{
+    font-weight: 600;
+    font-size: 36px;
+}
+
+
+.form__date-time{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px 0;
+}
+.form__date-time p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+}
+.wishes__textarea{
+    height: 400px;
+}
+.form__wishes p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    padding-bottom: 40px;
+}
+.form__wishes{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form__contacts{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 80px;
+}
+.form__contacts p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    padding-bottom: 40px;
+}
+.form__button{
+    background: #1A1B23;
+    border-radius: 36px;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    width: 250px;
+    height: 73px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 34px;
+    padding-left: 28px;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+}
+.form__endbutton{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 40px;
+}
