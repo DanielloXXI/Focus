@@ -48,8 +48,9 @@ header.header {
     font-size: 48px;
     font-family: 'Open Sans', sans-serif;
     margin: 0 0 22px 0;
-    padding: 0;
+    padding: 0 ;
     text-align: center;
+    line-height: 65px;
 }
 
 .first-hall__description-paragraph {
@@ -58,6 +59,7 @@ header.header {
     margin-bottom: 86px;
     width: 377px;
     text-align: center;
+    line-height: 33px;
 }
 
 .first-hall__description-button button {
