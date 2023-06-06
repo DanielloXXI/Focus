@@ -1,0 +1,5 @@
+.header__inner {
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(20, 21, 27, 0.97);
+}

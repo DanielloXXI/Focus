@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 26.0.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve">
+<style type="text/css">
+	.st0{display:none;}
+	.st1{display:none;fill:#FFFFFF;}
+	.st2{fill:none;stroke:#FFFFFF;stroke-width:3;stroke-miterlimit:10;}
+	.st3{fill:none;stroke:#FFFFFF;stroke-width:3;stroke-linecap:round;stroke-miterlimit:10;}
+	.st4{fill:#FFFFFF;}
+	.st5{font-family:'GeologicaRoman-Medium';}
+	.st6{font-size:21px;}
+	.st7{fill:none;stroke:#FFFFFF;stroke-width:4;stroke-miterlimit:10;}
+</style>
+<path class="st0" d="M83.27,100.03H16.4c-9.15,0-16.57-7.42-16.57-16.57V16.6c0-9.15,7.42-16.57,16.57-16.57h66.87
+	c9.15,0,16.57,7.42,16.57,16.57v66.87C99.84,92.62,92.42,100.03,83.27,100.03z"/>
+<path class="st1" d="M33.86,35.9c0,0,0.19,14.32,16.14,15.92v11.97c0,0-26.3-1.62-27.32-28.75c0,0,0-24.72,26.78-27.06l0.06,12.03
+	C49.52,20.02,33.41,20.7,33.86,35.9z"/>
+<path class="st1" d="M68.08,35.89c0,0-3.18,14.82-19.14,16.43v11.97c0,0,27.51-1.26,28.53-28.39c0,0-1.21-25.07-27.99-27.42
+	l-0.06,12.03C49.42,20.51,68.52,20.68,68.08,35.89z"/>
+<ellipse class="st2" cx="50.6" cy="35.9" rx="16.74" ry="15.92"/>
+<path class="st3" d="M61,37.45c-1.1,3.84-3.16,6.07-7.43,7.68"/>
+<text transform="matrix(1 0 0 1 11.4923 84.3474)" class="st4 st5 st6">Фокус</text>
+<circle class="st7" cx="50.6" cy="35.9" r="27.92"/>
+<g>
+	<path class="st4" d="M82.99,76.63c0.6,1.02,1.46,1.87,2.47,2.47c-1.02,0.6-1.87,1.46-2.47,2.47c-0.6-1.02-1.46-1.87-2.47-2.47
+		C81.54,78.5,82.39,77.65,82.99,76.63 M82.99,73.85c-0.03,0-0.06,0.02-0.07,0.07c-0.4,2.64-2.49,4.72-5.12,5.12
+		c-0.09,0.01-0.09,0.13,0,0.14c2.64,0.4,4.72,2.49,5.12,5.12c0.01,0.04,0.04,0.07,0.07,0.07s0.06-0.02,0.07-0.07
+		c0.4-2.64,2.49-4.72,5.12-5.12c0.09-0.01,0.09-0.13,0-0.14c-2.64-0.4-4.72-2.49-5.12-5.12C83.06,73.87,83.02,73.85,82.99,73.85
+		L82.99,73.85z"/>
+</g>
+</svg>

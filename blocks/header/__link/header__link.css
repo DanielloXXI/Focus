@@ -1,0 +1,22 @@
+.header__link {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 38px;
+    margin: 0 0 0 3.2vw;
+    color: white;
+    text-decoration: none;
+}
+
+.header__link:active {
+    color: white;
+}
+
+.header__link:visited {
+    color: white;
+}
+
+.header__link:first-child {
+    margin: 0 0 0 16vw;
+}

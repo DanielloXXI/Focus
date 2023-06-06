@@ -1,0 +1,11 @@
+.halls__title {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 40px;
+    position: relative;
+    text-align: center;
+    padding: 0;
+    margin: 52px 0 0 0;
+}
