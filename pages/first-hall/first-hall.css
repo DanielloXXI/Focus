@@ -7,7 +7,11 @@
 @import url(../../blocks/header/__link/header__link.css);
 @import url(../../blocks/page/page.css);
 @import url(../../blocks/header/__inner/header__inner.css);
+@import url(../../blocks/halls/__button/__button-arrow/halls__button-arrow.css);
 
+*{
+    box-sizing: border-box;
+}
 .header__first-hall{
     padding: 0 0 0 0;
 }
@@ -48,3 +52,48 @@ header.header{
     padding-left: 28px;
     cursor: pointer;
 }
+
+
+/* Чёрный бокс */
+.first-hall__adress{
+    background-color: #1A1B23;
+    height: 340px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    
+}
+.first-hall__adress-title{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+    padding-top: 38px;
+}
+.first-hall__adress-subtitle{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 32px;
+    padding-top: 23px;
+}
+
+
+
+
+.first-hall__gallery{
+    display: grid;
+    width: 100%;
+    grid-template-rows: 533px 533px;
+    grid-template-columns: 800px 800px;
+    row-gap: 54px;
+    column-gap: 64px;
+    padding: 0 0 0 5%;
+}
+.first-hall__gallery-img{
+    width: 800px;
+    height: 533px;
+    border: 0px;
+}
+
+
+
