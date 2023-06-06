@@ -17,6 +17,7 @@
 @import url(../blocks/advantages/__card/advantages__card.css);
 @import url(../blocks/advantages/__card/__card-icon/advantages__card-icon.css);
 @import url(../blocks/advantages/__inner/advantages__inner.css);
+@import url(../blocks/halls/__link/halls__link.css);
 @import url(../blocks/halls/__title/halls__title.css);
 @import url(../blocks/halls/__title/__title-container/halls__title-container.css);
 @import url(../blocks/container/__halls/container__halls.css);

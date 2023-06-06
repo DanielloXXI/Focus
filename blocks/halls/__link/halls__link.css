@@ -1,0 +1,13 @@
+.halls__link {
+    text-decoration: none;
+}
+
+.halls__link:active {
+    color: none;
+    text-decoration: none;
+}
+
+.halls__link:visited {
+    color: none;
+    text-decoration: none;
+}
