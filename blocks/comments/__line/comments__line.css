@@ -1,0 +1,8 @@
+.comments__line {
+    height: 159px;
+    width: 100%;
+    background-color: #14151B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
